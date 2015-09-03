@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewSocialAuthStyle" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/custom_style_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/custom_style_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonSocialAuthStyle" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/custom_style_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonSocialAuthStyle" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/custom_style_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerSocialAuthStyle" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/custom_style_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/custom_style_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarSocialAuthStyle" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/custom_style_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/custom_style_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarSocialAuthStyle" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/custom_style_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/custom_style_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/custom_style_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarSocialAuthStyle" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/custom_style_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/custom_style_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="RatingBarBigSocialAuthStyle" parent="android:Widget.Holo.Light.RatingBar.Indicator">
+      <item name="android:progressDrawable">@drawable/custom_style_ratingbar_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/custom_style_ratingbar_holo_light</item>
+  </style>
+
+  <style name="RatingBarSmallSocialAuthStyle" parent="android:Widget.Holo.Light.RatingBar.Small">
+      <item name="android:progressDrawable">@drawable/custom_style_ratingbar_small_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/custom_style_ratingbar_small_holo_light</item>
+  </style>
+
+  <style name="ToggleSocialAuthStyle" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/custom_style_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

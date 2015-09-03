@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="login_box_layout_margin">0dp</dimen>
+    <dimen name="footer_layout_height">40dp</dimen>
+    <dimen name="social_buttons_padding">30dp</dimen>
+</resources>

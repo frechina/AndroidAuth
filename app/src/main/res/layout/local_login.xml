@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <!--  Username Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/user_name"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etUsrName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPersonName"/>
+    <!--  Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/etPasswd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textPassword"/>
+    <!-- Login button -->
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_gradient"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:textSize="20sp"/>
+    <!-- Link to Password forgotten -->
+    <TextView
+        android:id="@+id/lnkPasswordForgotten"
+        style="@style/LinkTextAppearance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="end"
+        android:text="@string/password_forgotten" />
+    <!-- Link to Registration Screen -->
+    <TextView
+        android:id="@+id/lnkRegister"
+        style="@style/LinkTextAppearance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:gravity="end"
+        android:text="@string/new_user_then_sign_up" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header_gradient"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <!-- Logo Start -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/logolirondo"
+        android:contentDescription="@null" />
+    <!-- Logo Ends -->
+</LinearLayout>

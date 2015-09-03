@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="SocialAuth" parent="@style/_SocialAuth"/>
+
+  <style name="_SocialAuth" parent="Theme.Sherlock.Light">
+    <item name="android:textViewStyle">@style/TextViewSocialAuth</item>
+
+    <item name="android:editTextStyle">@style/EditTextSocialAuth</item>
+
+    <item name="android:textColorHighlight">#990b3868</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewSocialAuth</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxSocialAuth</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonSocialAuth</item>
+
+    <item name="android:buttonStyle">@style/ButtonSocialAuth</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonSocialAuth</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerSocialAuth</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemSocialAuth</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarSocialAuth</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarSocialAuth</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarSocialAuth</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigSocialAuth</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallSocialAuth</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleSocialAuth</item>
+
+    <item name="android:listViewStyle">@style/ListViewSocialAuth</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewSocialAuth.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemSocialAuth</item>
+
+  </style>
+
+</resources>

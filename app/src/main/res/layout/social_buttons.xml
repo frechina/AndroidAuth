@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingRight="@dimen/social_buttons_padding"
+    android:paddingLeft="@dimen/social_buttons_padding">
+
+    <Button
+        android:id="@+id/btnGoogleLogin"
+        style="@style/SocialButton"
+        android:background="@drawable/layers_gplus_button_bg"
+        android:text="@string/google" />
+
+    <Button
+        android:id="@+id/btnFacebookLogin"
+        style="@style/SocialButton"
+        android:background="@drawable/layers_fb_button_bg"
+        android:text="@string/facebook" />
+    <!--
+    <com.facebook.login.widget.LoginButton xmlns:fb="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btnFacebookLogin"
+        style="@style/SocialButton"
+        android:background="@drawable/layers_fb_button_bg"
+        android:drawableLeft="@null"
+        android:drawableStart="@null"
+        fb:login_text="@string/facebook"
+        android:text="@string/facebook" />
+        -->
+</LinearLayout>

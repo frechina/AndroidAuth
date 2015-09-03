@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/footer_layout_height"
+    android:orientation="vertical"
+    android:background="@drawable/footer_repeat">
+</LinearLayout>

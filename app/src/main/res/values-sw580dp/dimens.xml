@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="login_box_layout_margin">150dp</dimen>
+    <dimen name="footer_layout_height">290dp</dimen>
+
+</resources>
